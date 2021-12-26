@@ -1,0 +1,15 @@
+import pygame
+import time
+pygame.init()
+window = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+pygame.mixer.init()
+pygame.mixer.music.load('GHOST SOUND EFFECT -- Free Haunted Spooky Sound Pack.mp3')
+pygame.mixer.music.play()
+time.sleep(5)
+pygame.mixer.music.load('LAUGHING GHOST BEST RINGTONE Download link.mp3')
+pygame.mixer.music.play()
+time.sleep(1)
+image = pygame.image.load('scarypicture.jpg')
+window.blit(image, (0, 0))
+pygame.display.update()
+time.sleep(3)
